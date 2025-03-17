@@ -844,6 +844,7 @@ section{
     justify-content: center; /* Center content vertically */
     text-align: center; /* Center text */
     padding: 50px 10px; /* Add padding for spacing */
+    height: 100vh; /* Ensure it takes the full viewport height */
   }
 
   .about-img {
