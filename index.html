@@ -271,6 +271,10 @@ function closeMenu() {
   const navbar = document.querySelector('.navbar');
   navbar.classList.remove('show');
 }
+// Attach the `closeMenu` function to all navigation links
+document.querySelectorAll('.navbar a').forEach(link => {
+  link.addEventListener('click', closeMenu);
+});
 
 
 
