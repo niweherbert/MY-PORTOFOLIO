@@ -892,3 +892,65 @@ section{
       font-size: 12px;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .navbar {
+      display: none;
+      flex-direction: column;
+      background-color: #051129;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    .navbar.show {
+      display: flex;
+    }
+  
+    .navbar a {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #0ef;
+    }
+  
+    .navbar a:last-child {
+      border-bottom: none;
+    }
+  }
