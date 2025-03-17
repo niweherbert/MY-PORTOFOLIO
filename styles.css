@@ -759,164 +759,84 @@ section{
     margin: 0 auto; /* Center the image horizontally */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 500px) {
-    body {
-      font-size: 14px;
-      padding: 0 10px;
-    }
-  
-    .header {
-      flex-direction: column;
-      padding: 10px 5%;
-    }
-  
-    .logo {
-      font-size: 25px;
-      margin-bottom: 10px;
-      padding-left: 0;
-    }
-  
-    .navbar a {
-      font-size: 18px;
-      margin-left: 15px;
-    }
-  
-    .home {
-      flex-direction: column;
-      padding: 50px 5%;
-      text-align: center;
-    }
-  
-    .home-content h1 {
-      font-size: 30px;
-      text-align: center;
-    }
-  
-    .home-content h3 {
-      font-size: 20px;
-      text-align: center;
-    }
-  
-    .home-content p {
-      font-size: 14px;
-      text-align: center;
-    }
-  
-    .btn {
-      padding: 10px 20px;
-      font-size: 14px;
-      align-content: center;
-    }
-  
-    .about {
-      grid-template-columns: 1fr;
-      padding: 50px 0;
-    }
-  
-    .about-img {
-      width: 200px;
-      height: 200px;
-      align-items: center;
-    }
-  
-    .about-text h2 {
-      font-size: 30px;
-    }
-  
-    .about-text h4 {
-      font-size: 18px;
-    }
-  
-    .about-text p {
-      font-size: 14px;
-      margin-right: 0;
-    }
-  
-    .services-list {
-      grid-template-columns: 1fr;
-      grid-gap: 20px;
-    }
-  
-    .services-list div {
-      padding: 20px;
-    }
-  
-    .contact {
-      grid-template-columns: 1fr;
-      padding: 20px;
-    }
-  
-    .contact-text h2 {
-      font-size: 40px;
-    }
-  
-    .contact-text h4,
-    .contact-text p {
-      font-size: 14px;
-    }
-  
-    .contact-icons i {
-      width: 30px;
-      height: 30px;
-      font-size: 16px;
-    }
-  
-    .contact-form form input,
-    .contact-form form textarea {
-      width: 100%;
-      padding: 10px;
-      font-size: 14px;
-    }
-  
-    .contact-form form .send {
-      padding: 10px 40px;
-      font-size: 14px;
-    }
-  
-    .portfolio-content {
-      grid-template-columns: 1fr;
-      grid-gap: 20px;
-    }
-  
-    .row img {
-      height: auto;
-    }
-  
-    .last-text p {
-      font-size: 12px;
-    }
+  body {
+    font-size: 14px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center text */
   }
 
+  .header {
+    flex-direction: column;
+    align-items: center; /* Center header content */
+    padding: 10px 5%;
+  }
 
+  .logo {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 
+  .navbar {
+    align-items: center; /* Center navigation links */
+  }
 
+  .home {
+    flex-direction: column;
+    padding: 50px 5%;
+    text-align: center;
+    align-items: center; /* Center home content */
+  }
 
+  .home-content h1,
+  .home-content h3,
+  .home-content p {
+    text-align: center;
+  }
 
+  .btn {
+    align-self: center; /* Center button */
+  }
 
+  .about {
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+    align-items: center; /* Center about section */
+    text-align: center;
+  }
 
+  .about-img {
+    margin: 0 auto; /* Center image */
+  }
 
+  .services-list {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    align-items: center; /* Center services */
+  }
 
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    align-items: center; /* Center contact section */
+    text-align: center;
+  }
 
+  .portfolio-content {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    align-items: center; /* Center portfolio content */
+  }
 
-
-
-  
-
-
-
+  .last-text p {
+    text-align: center;
+  }
+}
 
   .menu-icon {
     display: none;
