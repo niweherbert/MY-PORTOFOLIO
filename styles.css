@@ -836,6 +836,39 @@ section{
   .last-text p {
     text-align: center;
   }
+
+  .about {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    padding: 50px 10px; /* Add padding for spacing */
+  }
+
+  .about-img {
+    margin: 0 auto; /* Center the image */
+    width: 200px; /* Adjust image size for small screens */
+    height: 200px;
+    border-radius: 50%; /* Keep the circular shape */
+  }
+
+  .about-text h2 {
+    font-size: 30px; /* Adjust font size for small screens */
+    margin-bottom: 20px;
+  }
+
+  .about-text h4 {
+    font-size: 18px; /* Adjust font size for small screens */
+    margin-bottom: 15px;
+  }
+
+  .about-text p {
+    font-size: 14px; /* Adjust font size for small screens */
+    line-height: 1.6;
+    margin: 0 auto; /* Center the paragraph */
+    max-width: 90%; /* Limit the width for better readability */
+  }
 }
 
   .menu-icon {
