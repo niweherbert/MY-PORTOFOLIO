@@ -802,19 +802,23 @@ section{
   
     .home-content h1 {
       font-size: 30px;
+      text-align: center;
     }
   
     .home-content h3 {
       font-size: 20px;
+      text-align: center;
     }
   
     .home-content p {
       font-size: 14px;
+      text-align: center;
     }
   
     .btn {
       padding: 10px 20px;
       font-size: 14px;
+      align-content: center;
     }
   
     .about {
@@ -825,6 +829,7 @@ section{
     .about-img {
       width: 200px;
       height: 200px;
+      align-items: center;
     }
   
     .about-text h2 {
