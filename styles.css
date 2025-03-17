@@ -928,6 +928,7 @@ section{
   @media screen and (max-width: 500px) {
     .menu-icon {
       display: block;
+      padding-right: 0px;
     }
   
     .navbar {
