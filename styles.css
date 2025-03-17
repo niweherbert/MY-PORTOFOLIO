@@ -18,13 +18,13 @@ body{
     padding: 20px 10%;
     background: #051129;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Align items to the right */
     align-items: center;
     z-index: 100;
 }
 .logo{
     position: relative;
-    font-size: 35px;
+    font-size: 25px;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -32,6 +32,7 @@ body{
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
+    margin-right: auto; /* Push the logo to the left */
 }
 .navbar a{
     display: inline-block;
@@ -934,7 +935,7 @@ section{
       background-color: #051129;
       position: absolute;
       top: 60px;
-      right: 10px;
+      right: 10px; /* Align the menu to the right */
       width: 200px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
