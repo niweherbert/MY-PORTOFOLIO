@@ -918,6 +918,7 @@ section{
     font-size: 30px;
     color: #fff;
     cursor: pointer;
+    padding-right: 0%;
   }
   
   .navbar {
