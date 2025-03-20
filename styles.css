@@ -266,7 +266,7 @@ section{
 }
 .bar{
     font-size: 23px;
-}
+}p
 .Technical-bars .bar{
     margin-top: 40px 0;
 }
@@ -916,4 +916,9 @@ section{
     .navbar a:last-child {
       border-bottom: none;
     }
+  }
+  .Technical-bars .bar .progress-line {
+    
+    display: none;
+    align-items: center;
   }
